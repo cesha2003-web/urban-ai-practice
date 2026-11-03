@@ -1,0 +1,11 @@
+{
+  "source": "OpenStreetMap via IduEdu get_walk_graph",
+  "graph_type": "walk",
+  "movement": "walk",
+  "walk_speed_kmh": 5.0,
+  "crs": 32640,
+  "nodes": 21963,
+  "edges": 65530,
+  "units": "minutes",
+  "created_at_utc": "2026-11-02T23:15:42+00:00"
+}

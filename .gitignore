@@ -42,3 +42,28 @@ ENV/
 
 # PyCharm env
 .idea
+
+# VS Code and local agent instructions
+.vscode/
+AGENTS.md
+
+# Local scratch files
+/Microsoft/
+/hello.py
+/density.py
+
+# OSMnx/GDAL caches and generated safety copies
+examples/cache/
+examples/data_magnitogorsk/backups/
+
+# Large local inputs and calculation caches are intentionally not published
+examples/data_magnitogorsk/*.osm.pbf
+examples/data_magnitogorsk/accessibility_matrix.*
+examples/data_magnitogorsk/graph.pkl
+examples/data_magnitogorsk/*.parquet
+
+# Intermediate geodata; the compact publication set is explicitly allowed below
+examples/data_magnitogorsk/*.geojson
+!examples/data_magnitogorsk/boundaries.geojson
+!examples/data_magnitogorsk/schools.geojson
+!examples/data_magnitogorsk/results_blocks.geojson
